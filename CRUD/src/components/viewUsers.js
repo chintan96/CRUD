@@ -7,6 +7,7 @@ class ViewUsers extends React.Component {
   render(){
     return(
       <div>
+      <fieldset><h2>View Users</h2>
         {console.log(this.props.users)}
         {this.props.users.map((user) =>(
           <div key={user.email}>
@@ -14,6 +15,7 @@ class ViewUsers extends React.Component {
               <User key={user.email} user={user} />}
           </div>
         ))}
+      </fieldset>
       </div>
     );
   }

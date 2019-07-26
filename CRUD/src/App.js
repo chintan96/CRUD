@@ -11,11 +11,9 @@ class App extends React.Component {
       <div className="container">
         <div className="flex-row">
           <div className="flex-large">
-            <h2>Create User</h2>
             <CreateUser title="Create User"/>
           </div>
           <div className="flex-large">
-            <h2>View User</h2>
             <ViewUsers/>
           </div>
         </div>
